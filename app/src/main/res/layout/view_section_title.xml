@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/screen_padding_horizontal"
+    android:paddingTop="@dimen/spacing_sm"
+    android:paddingEnd="@dimen/screen_padding_horizontal">
+
+    <TextView
+        android:id="@+id/textSectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        android:textAppearance="@style/TextAppearance.AfterSales.Section"
+        tools:text="@string/garage_section_active_orders" />
+
+    <TextView
+        android:id="@+id/textSectionCount"
+        style="@style/Widget.AfterSales.CountBadge"
+        android:layout_marginStart="@dimen/spacing_sm"
+        tools:text="2" />
+</LinearLayout>

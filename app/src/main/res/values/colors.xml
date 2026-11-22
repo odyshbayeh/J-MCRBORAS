@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_navy_900">#FF151930</color>
+    <color name="brand_navy_700">#FF242C54</color>
+    <color name="brand_navy_500">#FF333F78</color>
+    <color name="brand_navy_100">#FFAEB8F0</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_primary">@color/brand_navy_700</color>
+    <color name="color_on_primary">@color/white</color>
+    <color name="color_primary_container">#FFE6E9F3</color>
+    <color name="color_on_primary_container">@color/brand_navy_900</color>
+    <color name="color_background">#FFF7F8FA</color>
+    <color name="color_surface">#FFFFFFFF</color>
+    <color name="color_surface_container">#FFF5F5F7</color>
+    <color name="color_surface_container_high">#FFECECEF</color>
+    <color name="color_on_surface">@color/brand_navy_900</color>
+    <color name="color_on_surface_variant">#FF4A4F63</color>
+    <color name="color_outline">#FFE6E6E6</color>
+    <color name="color_outline_variant">#FFECECEF</color>
+    <color name="skeleton_block">#FFE6E6E6</color>
+
+    <color name="status_success">#FF2F7A4D</color>
+    <color name="status_success_container">#FFE8F1EC</color>
+    <color name="status_warning">#FF8A6A1F</color>
+    <color name="status_warning_container">#FFF4ECD8</color>
+    <color name="status_danger">#FF8A2A2A</color>
+    <color name="status_danger_container">#FFF4DEDE</color>
+    <color name="status_info">@color/brand_navy_500</color>
+    <color name="status_info_container">#FFE6E9F3</color>
+    <color name="status_neutral">#FF4A4F63</color>
+    <color name="status_neutral_container">#FFECECEF</color>
+</resources>

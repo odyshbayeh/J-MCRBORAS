@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+
+    <dimen name="screen_padding_horizontal">16dp</dimen>
+
+    <dimen name="corner_card">16dp</dimen>
+    <dimen name="corner_image">12dp</dimen>
+    <dimen name="corner_pill">999dp</dimen>
+
+    <dimen name="vehicle_image_width">96dp</dimen>
+    <dimen name="vehicle_image_height">72dp</dimen>
+    <dimen name="carousel_card_width_work_order">288dp</dimen>
+    <dimen name="carousel_card_width_t_card">240dp</dimen>
+    <dimen name="state_icon_size">72dp</dimen>
+    <dimen name="icon_small">20dp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AfterSales Garage</string>
+
+    <string name="garage_title">My Vehicles</string>
+    <string name="garage_search_hint">Search by plate, VIN, make or model</string>
+    <string name="garage_section_active_orders">Active repair orders</string>
+    <string name="garage_section_t_cards">T-Cards in progress</string>
+    <string name="garage_section_vehicles">My vehicles</string>
+    <string name="garage_no_search_results">No vehicles match your search.</string>
+    <string name="garage_vin_value">VIN %1$s</string>
+    <string name="garage_mileage_km">%1$s km</string>
+    <string name="garage_work_order_number">Work order #%1$s</string>
+    <string name="garage_work_order_opened_at">Opened %1$s</string>
+    <plurals name="garage_work_order_lines">
+        <item quantity="one">%d line</item>
+        <item quantity="other">%d lines</item>
+    </plurals>
+    <string name="garage_t_card_advisor">Advisor: %1$s</string>
+    <string name="garage_t_card_quantity">Qty %1$d</string>
+
+    <string name="garage_document_registration">Registration</string>
+    <string name="garage_document_insurance">Insurance</string>
+    <string name="garage_document_expires_today">%1$s expires today</string>
+    <plurals name="garage_document_expires_in_days">
+        <item quantity="one">%1$s expires in %2$d day</item>
+        <item quantity="other">%1$s expires in %2$d days</item>
+    </plurals>
+    <plurals name="garage_document_expired_days_ago">
+        <item quantity="one">%1$s expired %2$d day ago</item>
+        <item quantity="other">%1$s expired %2$d days ago</item>
+    </plurals>
+
+    <string name="garage_error_title">We couldn\'t load your garage</string>
+    <string name="garage_empty_title">Your garage is empty</string>
+    <string name="garage_empty_message">No vehicles, repair orders or T-Cards were returned for your account.</string>
+
+    <string name="vehicle_status_approved">Approved</string>
+    <string name="vehicle_status_pending">Pending approval</string>
+    <string name="vehicle_status_rejected">Rejected</string>
+    <string name="vehicle_status_unknown">Unknown</string>
+
+    <string name="action_retry">Try again</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="error_no_connection">No internet connection. Check your network and try again.</string>
+    <string name="error_timeout">The server took too long to respond. Please try again.</string>
+    <string name="error_session_expired">Your session expired. Please sign in again.</string>
+    <string name="error_invalid_response">We received an unexpected response from the server.</string>
+    <string name="error_server">Something went wrong on our side. Please try again later.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+</resources>

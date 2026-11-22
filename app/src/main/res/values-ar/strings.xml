@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مرآب ما بعد البيع</string>
+
+    <string name="garage_title">مركباتي</string>
+    <string name="garage_search_hint">ابحث برقم اللوحة أو رقم الشاصي أو الشركة أو الطراز</string>
+    <string name="garage_section_active_orders">أوامر الإصلاح النشطة</string>
+    <string name="garage_section_t_cards">بطاقات العمل قيد التنفيذ</string>
+    <string name="garage_section_vehicles">مركباتي</string>
+    <string name="garage_no_search_results">لا توجد مركبات تطابق بحثك.</string>
+    <string name="garage_vin_value">رقم الشاصي %1$s</string>
+    <string name="garage_mileage_km">%1$s كم</string>
+    <string name="garage_work_order_number">أمر العمل رقم %1$s</string>
+    <string name="garage_work_order_opened_at">فُتح في %1$s</string>
+    <plurals name="garage_work_order_lines">
+        <item quantity="zero">لا توجد بنود</item>
+        <item quantity="one">بند واحد</item>
+        <item quantity="two">بندان</item>
+        <item quantity="few">%d بنود</item>
+        <item quantity="many">%d بندًا</item>
+        <item quantity="other">%d بند</item>
+    </plurals>
+    <string name="garage_t_card_advisor">مستشار الخدمة: %1$s</string>
+    <string name="garage_t_card_quantity">الكمية %1$d</string>
+
+    <string name="garage_document_registration">الترخيص</string>
+    <string name="garage_document_insurance">التأمين</string>
+    <string name="garage_document_expires_today">ينتهي %1$s اليوم</string>
+    <plurals name="garage_document_expires_in_days">
+        <item quantity="zero">ينتهي %1$s اليوم</item>
+        <item quantity="one">ينتهي %1$s خلال يوم واحد</item>
+        <item quantity="two">ينتهي %1$s خلال يومين</item>
+        <item quantity="few">ينتهي %1$s خلال %2$d أيام</item>
+        <item quantity="many">ينتهي %1$s خلال %2$d يومًا</item>
+        <item quantity="other">ينتهي %1$s خلال %2$d يوم</item>
+    </plurals>
+    <plurals name="garage_document_expired_days_ago">
+        <item quantity="zero">انتهى %1$s اليوم</item>
+        <item quantity="one">انتهى %1$s منذ يوم واحد</item>
+        <item quantity="two">انتهى %1$s منذ يومين</item>
+        <item quantity="few">انتهى %1$s منذ %2$d أيام</item>
+        <item quantity="many">انتهى %1$s منذ %2$d يومًا</item>
+        <item quantity="other">انتهى %1$s منذ %2$d يوم</item>
+    </plurals>
+
+    <string name="garage_error_title">تعذّر تحميل مرآبك</string>
+    <string name="garage_empty_title">مرآبك فارغ</string>
+    <string name="garage_empty_message">لم يتم إرجاع أي مركبات أو أوامر إصلاح أو بطاقات عمل لحسابك.</string>
+
+    <string name="vehicle_status_approved">معتمدة</string>
+    <string name="vehicle_status_pending">بانتظار الاعتماد</string>
+    <string name="vehicle_status_rejected">مرفوضة</string>
+    <string name="vehicle_status_unknown">غير معروف</string>
+
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_refresh">تحديث</string>
+
+    <string name="error_no_connection">لا يوجد اتصال بالإنترنت. تحقّق من الشبكة وحاول مجددًا.</string>
+    <string name="error_timeout">استغرق الخادم وقتًا طويلًا للرد. يرجى المحاولة مجددًا.</string>
+    <string name="error_session_expired">انتهت صلاحية جلستك. يرجى تسجيل الدخول مجددًا.</string>
+    <string name="error_invalid_response">وصلنا رد غير متوقع من الخادم.</string>
+    <string name="error_server">حدث خطأ من جهتنا. يرجى المحاولة لاحقًا.</string>
+    <string name="error_unknown">حدث خطأ ما. يرجى المحاولة مجددًا.</string>
+</resources>

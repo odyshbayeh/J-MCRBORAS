@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/screen_padding_horizontal"
+    android:layout_marginEnd="@dimen/screen_padding_horizontal"
+    android:layout_marginBottom="@dimen/spacing_md">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_md">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageVehicle"
+            android:layout_width="@dimen/vehicle_image_width"
+            android:layout_height="@dimen/vehicle_image_height"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.AfterSales.Image"
+            tools:src="@drawable/ic_vehicle_placeholder" />
+
+        <TextView
+            android:id="@+id/textVehicleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_md"
+            android:layout_marginEnd="@dimen/spacing_sm"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.AfterSales.Title"
+            app:layout_constraintEnd_toStartOf="@id/textStatus"
+            app:layout_constraintStart_toEndOf="@id/imageVehicle"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Land Rover Defender 110" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            style="@style/Widget.AfterSales.StatusPill"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/vehicle_status_approved" />
+
+        <TextView
+            android:id="@+id/textVehicleMeta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textAppearance="@style/TextAppearance.AfterSales.Body"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/textVehicleName"
+            app:layout_constraintTop_toBottomOf="@id/textVehicleName"
+            tools:text="2023 • 7-1234-95" />
+
+        <TextView
+            android:id="@+id/textVin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AfterSales.Caption"
+            app:layout_constraintEnd_toStartOf="@id/textMileage"
+            app:layout_constraintStart_toStartOf="@id/textVehicleName"
+            app:layout_constraintTop_toBottomOf="@id/textVehicleMeta"
+            tools:text="VIN SALEA7AX0P2000001" />
+
+        <TextView
+            android:id="@+id/textMileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            android:textAppearance="@style/TextAppearance.AfterSales.Caption"
+            app:layout_constraintBaseline_toBaselineOf="@id/textVin"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="18,450 km" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrierContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="imageVehicle,textVin" />
+
+        <TextView
+            android:id="@+id/textAttention"
+            style="@style/Widget.AfterSales.StatusPill"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/barrierContent"
+            tools:text="Insurance expires in 12 days"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

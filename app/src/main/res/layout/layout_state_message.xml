@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_xxl">
+
+    <ImageView
+        android:id="@+id/imageStateIcon"
+        android:layout_width="@dimen/state_icon_size"
+        android:layout_height="@dimen/state_icon_size"
+        android:importantForAccessibility="no"
+        app:tint="@color/color_on_surface_variant"
+        tools:src="@drawable/ic_cloud_off" />
+
+    <TextView
+        android:id="@+id/textStateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AfterSales.Title"
+        tools:text="@string/garage_error_title" />
+
+    <TextView
+        android:id="@+id/textStateMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AfterSales.Caption"
+        tools:text="@string/error_no_connection" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonStateAction"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xl"
+        tools:text="@string/action_retry" />
+</LinearLayout>

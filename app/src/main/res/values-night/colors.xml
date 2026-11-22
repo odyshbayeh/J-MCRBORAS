@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/brand_navy_100</color>
+    <color name="color_on_primary">@color/brand_navy_900</color>
+    <color name="color_primary_container">@color/brand_navy_700</color>
+    <color name="color_on_primary_container">#FFE6E9F3</color>
+    <color name="color_background">#FF0A0B12</color>
+    <color name="color_surface">#FF10121A</color>
+    <color name="color_surface_container">#FF161922</color>
+    <color name="color_surface_container_high">#FF1E2230</color>
+    <color name="color_on_surface">#FFF5F5F7</color>
+    <color name="color_on_surface_variant">#FFB8BCC8</color>
+    <color name="color_outline">#FF2E3344</color>
+    <color name="color_outline_variant">#FF242836</color>
+    <color name="skeleton_block">#FF1E2230</color>
+
+    <color name="status_success">#FF8FD1A8</color>
+    <color name="status_success_container">#FF1E3A2A</color>
+    <color name="status_warning">#FFE5C77A</color>
+    <color name="status_warning_container">#FF3A3120</color>
+    <color name="status_danger">#FFF0A3A3</color>
+    <color name="status_danger_container">#FF3D2020</color>
+    <color name="status_info">@color/brand_navy_100</color>
+    <color name="status_info_container">@color/brand_navy_700</color>
+    <color name="status_neutral">#FFB8BCC8</color>
+    <color name="status_neutral_container">#FF242836</color>
+</resources>
